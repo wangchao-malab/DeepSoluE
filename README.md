@@ -49,7 +49,6 @@ python DeepSoluE.py -i testing.fasta -o prediction_results.csv
 
 ### 3. Output explaining
 The output file (in ".csv" format) can be found in results folder, which including sequence number, sequence_id, predicted probability and pedicted result.
-protein with predicted probability > 0.4 was regared as soluble.
 
 ### 4. References
 Chao Wang et al. 2022. DeepSoluE: A LSTM model for protein solubility prediction using sequence physicochemical patterns and distributed representation information (Submited).
