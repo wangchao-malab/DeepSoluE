@@ -1,0 +1,6 @@
+,sequence_id,predicted_probability,result
+0,131111|1|testing,0.7294,soluble
+1,73655|1|testing,0.82,soluble
+2,50865|1|testing,0.578,soluble
+3,127577|1|testing,0.8967,soluble
+4,7144|1|testing,0.8112,soluble
