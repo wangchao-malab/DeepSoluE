@@ -30,16 +30,25 @@ For convenience, we strongly recommended users to install the Anaconda Python 3.
 
 ##### 2.3.2 Additional software requirements
 Two additional softwares, namely USEARCH and TMHMM, are needed for DeepSoluE, we did not provide the two tools in the source code packages because of the license restriction. The two methods can be acquired at the following links:
+
 USEARCH: https://www.drive5.com/usearch/
+
 TMHMM: https://services.healthtech.dtu.dk/cgi-bin/sw_request
+
 For convenience, please extract the zip file to the “softs” folder of the DeepSoluE-master_source_code. Of course, you can fix the tmhmm_usearch.py scripts according your environment.
 
 ##### 2.3.3 Running
 Changing working dir to DeepSoluE-master_source_code, and then running the following command:
+
 python DeepSoluE.py -i testing.fasta -o prediction_results.csv
--i: name of input_file in fasta format   # folder “sequence” is the default file path of the input_file 
+
+-i: name of input_file in fasta format   # folder “sequence” is the default file path of the input_file
+
 -o name of output_file              # folder “results” is the default file path for result save.
 
 ### 3. Output explaining
 The output file (in ".csv" format) can be found in results folder, which including sequence number, sequence_id, predicted probability and pedicted result.
 protein with predicted probability > 0.4 was regared as soluble.
+
+### 4. References
+Chao Wang et al. 2021. DeepSoluE: A LSTM model for protein solubility prediction using sequence physicochemical patterns and distributed representation information (Submited).
