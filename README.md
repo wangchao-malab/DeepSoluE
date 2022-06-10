@@ -1,16 +1,17 @@
 # DeepSoluE
-DeepSoluE
 
 ## 1 Description
 Protein solubility is the precondition for its industrial application and functional interpretation. However, the formation of inclusion bodies is still an inevitable roadblock in protein science and industry, where only nearly a quarter of proteins can be successfully expressed in soluble form. Hence, it is imperative to develop novel and highly accurate predictors that enable the prioritization of highly soluble proteins to reduce the cost of actual experimental work. 
 We developed a novel tool, DeepSoluE, which predicts protein solubility using a long-short-term memory (LSTM) network with hybrid features composed of physicochemical patterns and distributed representation of amino acids. Comparison results showed that the proposed model achieved more accurate and balanced performance than existing tools.
 
-# 2. Availability
-2.1. Webserver is available at: http://39.100.246.211:10505/DeepSoluE/
-2.2 Datasets and source code are available at:
- http://lab.malab.cn/~wangchao/softs/DeepSoluE/ and 
-2.3 Local running
-2.3.1 Environment
+## 2. Availability
+###2.1. Webserver is available at: http://39.100.246.211:10505/DeepSoluE/
+
+###2.2 Datasets and source code are available at:
+ http://lab.malab.cn/~wangchao/softs/DeepSoluE/ and
+ 
+###2.3 Local running
+####2.3.1 Environment
 Before running, please make sure the following packages are installed in Python environment:
 gensim==3.4.0
 pandas==1.1.3
