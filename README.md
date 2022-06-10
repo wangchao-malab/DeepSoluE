@@ -51,4 +51,4 @@ The output file (in ".csv" format) can be found in results folder, which includi
 protein with predicted probability > 0.4 was regared as soluble.
 
 ### 4. References
-Chao Wang et al. 2021. DeepSoluE: A LSTM model for protein solubility prediction using sequence physicochemical patterns and distributed representation information (Submited).
+Chao Wang et al. 2022. DeepSoluE: A LSTM model for protein solubility prediction using sequence physicochemical patterns and distributed representation information (Submited).
