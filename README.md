@@ -37,6 +37,7 @@ USEARCH: https://www.drive5.com/usearch/
 TMHMM: https://services.healthtech.dtu.dk/cgi-bin/sw_request
 
 For convenience, please extract the zip file to the “softs” folder of the DeepSoluE-master_source_code. Of course, you can fix the tmhmm_usearch.py scripts according your environment.
+For the database "Ecoli_xray_nmr_pdb_no_nesg_simple_id.fasta" that necessary for Usearch, please refer to Jiri Hon et al., 2021(https://doi.org/10.1093/bioinformatics/btaa1102).
 
 ##### 2.3.3 Running
 Changing working dir to DeepSoluE-master_source_code, and then running the following command:
